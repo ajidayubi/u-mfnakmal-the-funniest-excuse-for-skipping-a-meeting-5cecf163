@@ -4,6 +4,8 @@
 // fails loudly instead of submitting an invalid entry.
 import { mkdirSync, writeFileSync } from "node:fs";
 
+// The line works by triple escalation: two familiar tech failures, then
+// the twist — motivation itself quits, and all three strike at 9am sharp.
 const LINE =
   "I missed the meeting because my laptop updated itself, my Wi-Fi took the day off, and my motivation filed for early retirement — all at 9am sharp.";
 
